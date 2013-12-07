@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-cabin
 Version:	20130722
-Release:	2
+Release:	3
 Summary:	A humanist Sans Serif font, with LaTeX support
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/cabin
