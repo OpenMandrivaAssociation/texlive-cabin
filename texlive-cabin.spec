@@ -5,8 +5,8 @@ Summary:	A humanist Sans Serif font, with LaTeX support
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/cabin
 License:	OFL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cabin.r64371.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cabin.doc.r64371.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cabin.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cabin.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
