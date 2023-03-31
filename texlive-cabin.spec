@@ -1,6 +1,6 @@
 Name:		texlive-cabin
 Version:	64371
-Release:	1
+Release:	2
 Summary:	A humanist Sans Serif font, with LaTeX support
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/cabin
