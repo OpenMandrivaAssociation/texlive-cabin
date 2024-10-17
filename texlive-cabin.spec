@@ -3,7 +3,7 @@ Version:	68373
 Release:	1
 Summary:	A humanist Sans Serif font, with LaTeX support
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/cabin
+URL:		https://www.ctan.org/tex-archive/fonts/cabin
 License:	OFL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cabin.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cabin.doc.r%{version}.tar.xz
