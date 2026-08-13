@@ -12,7 +12,8 @@ Source0:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/cabin.r%{tl_revi
 Source1:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/cabin.doc.r%{tl_revision}.tar.xz
 BuildArch:	noarch
 BuildSystem:	texlive
-Provides:	texlive(%{tl_name}) = %{tl_revision}
+Requires:	texlive-tlpkg
+Provides:	texlive(%{tl_name}) = %{version}
 
 %description
 Cabin is a humanist sans with four weights and true italics and small
@@ -25,3 +26,10 @@ to manage the user's view of all those font weights. An sfdefault option
 is provided to enable Cabin as the default text font. The fontaxes
 package is required for use with [pdf]LaTeX.
 
+
+%install -a
+mkdir -p %{buildroot}%{_texmf_updmap_d}
+cat > %{buildroot}%{_texmf_updmap_d}/%{tl_name} <<'TL_DROPIN_EOF'
+# from cabin:
+Map cabin.map
+TL_DROPIN_EOF
